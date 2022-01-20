@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_contacts",
+  "info": {
+    "displayName": "Contact",
+    "icon": "envelope",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
