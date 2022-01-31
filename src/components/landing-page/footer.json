@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_landing_page_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "trademark",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "copyright": {
+      "type": "string"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.social-icon"
+    }
+  }
+}

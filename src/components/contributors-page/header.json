@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_component_heroes",
+  "collectionName": "components_contributors_page_headers",
   "info": {
-    "displayName": "Hero",
-    "icon": "file-image",
+    "displayName": "Header",
+    "icon": "heading",
     "description": ""
   },
   "options": {},
@@ -11,7 +11,7 @@
       "type": "string"
     },
     "subtitle": {
-      "type": "string"
+      "type": "text"
     },
     "background": {
       "allowedTypes": [
@@ -19,9 +19,6 @@
       ],
       "type": "media",
       "multiple": false
-    },
-    "cta": {
-      "type": "string"
     }
   }
 }

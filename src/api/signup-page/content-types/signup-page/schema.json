@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "signup_pages",
+  "info": {
+    "singularName": "signup-page",
+    "pluralName": "signup-pages",
+    "displayName": "Signup Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

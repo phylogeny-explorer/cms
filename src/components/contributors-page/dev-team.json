@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_contributors_page_dev_teams",
+  "info": {
+    "displayName": "DevTeam",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "profiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contributors-page.profile"
+    }
+  }
+}

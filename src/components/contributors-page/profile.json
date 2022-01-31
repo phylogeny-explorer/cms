@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_contributors_page_profiles",
+  "info": {
+    "displayName": "Profile",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bio": {
+      "type": "text"
+    }
+  }
+}
