@@ -3,6 +3,7 @@ FROM node:14
 RUN apt-get update && apt-get install -y libvips-dev
 ARG NODE_ENV=development
 ENV NODE_ENV=${NODE_ENV}
+USER 10002:1003
 WORKDIR /opt/
 COPY ./package.json ./
 COPY ./yarn.lock ./
@@ -13,5 +14,4 @@ WORKDIR /opt/app
 COPY ./ .
 RUN yarn build
 EXPOSE 1337
-USER 10002:1003
 CMD ["yarn", "develop"]
