@@ -13,4 +13,5 @@ WORKDIR /opt/app
 COPY ./ .
 RUN yarn build
 EXPOSE 1337
+USER 10002:1003
 CMD ["yarn", "develop"]
