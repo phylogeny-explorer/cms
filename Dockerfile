@@ -3,7 +3,8 @@ FROM node:14
 RUN apt-get update && apt-get install -y libvips-dev
 ARG NODE_ENV=development
 ENV NODE_ENV=${NODE_ENV}
-RUN chown 10002:1003 /opt/ /.cache /.yarnrc
+RUN chown 10002:1003 /opt/
+ENV HOME=/opt/
 USER 10002:1003
 WORKDIR /opt/
 COPY ./package.json ./
